@@ -1,0 +1,53 @@
+{
+    "name": "Telegraph Bot",
+    "description": "A Id Bot by @Whitedeviljoypow",
+    "keywords": [
+        "Telegram",
+        "Id",
+        "Bot"
+    ],
+    "website": "https://github.com/Whitedeviljoypow",
+    "repository": "https://github.com/Whitedeviljoypow/Telegraph-Uploader-Bot",
+    "success_url": "https://youtube.com/channel/UCmGBpXoM-OEm-FacOccVKgQ",
+    "env": {
+        "API_ID": {
+            "description": "Your APP ID From https://my.telegram.org/auth?to=apps",
+            "value": ""
+        },
+        "API_HASH": {
+            "description": "Your API Hash From https://my.telegram.org/auth?to=apps",
+            "value": ""
+        },
+        "BOT_TOKEN": {
+            "description": "Your Bot Token From @BotFather",
+            "value": ""
+        },
+        "UPDATE_CHANNEL": {
+            "description": "Channel User Name Without @ Eg MN_BOTZ_UPDATES",
+            "value": "MN_BOTZ_UPDATES"
+        },
+        "BOT_OWNER": {
+            "description": "Your Owner Id",
+            "value": ""
+        },
+        "DATABASE_URL": {
+            "description": "Give your Database Url geit from https://account.mongodb.com ",
+            "value": ""
+        },
+        "BOT_NAME": {
+            "description": "Your Bot Name From Bot Father",
+            "value": ""
+        }
+    },
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
