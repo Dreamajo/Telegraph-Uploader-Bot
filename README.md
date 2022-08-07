@@ -48,8 +48,9 @@ python3 main.py
 
 ---
 
-```
 ## Available Commands
+
+```
 start - Checking Bot Online
 help - For more help
 about - For more about me
