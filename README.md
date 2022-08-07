@@ -48,6 +48,16 @@ python3 main.py
 
 ---
 
+```
+## Available Commands
+start - Checking Bot Online
+help - For more help
+about - For more about me
+status - For bot updates
+```
+
+---
+
 ## Credits
 
 - [Sample Bot](http://t.me/MN_Telegraph_BoT)
